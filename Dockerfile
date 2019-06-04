@@ -1,10 +1,11 @@
 from jenkins/jenkins
 user root
+run apt update
+run apt install systemd -y
 run RELEASE="$(curl -sSL https://dl.k8s.io/release/stable.txt)"
 run mkdir -p /opt/bin
 run cd /opt/bin
 run curl -L --remote-name-all https://storage.googleapis.com/kubernetes-release/release/${RELEASE}/bin/linux/amd64/{kubeadm,kubelet,kubectl}
-run chmod +x {kubeadm,kubelet,kubectl}
 run curl -sSL "https://raw.githubusercontent.com/kubernetes/kubernetes/${RELEASE}/build/debs/kubelet.service" | sed "s:/usr/bin:/opt/bin:g" > /etc/systemd/system/kubelet.service
 run mkdir -p /etc/systemd/system/kubelet.service.d
 run curl -sSL "https://raw.githubusercontent.com/kubernetes/kubernetes/${RELEASE}/build/debs/10-kubeadm.conf" | sed "s:/usr/bin:/opt/bin:g" > /etc/systemd/system/kubelet.service.d/10-kubeadm.conf
