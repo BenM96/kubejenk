@@ -1,0 +1,17 @@
+version: '3.7'
+services:
+  jenk:
+    image: benm96/jenk:latest 
+    build: .
+    ports:
+    - target: 8080
+      published: 8080
+    volumes:
+    - type: bind
+      source: /var/run/docker.sock
+      target: /var/run/docker.sock
+    - type: volume
+      source: jenk
+      target: /var/jenkins_home
+volumes:
+  jenk:

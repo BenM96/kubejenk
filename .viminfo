@@ -9,6 +9,7 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
+:q
 
 # Search String History (newest to oldest):
 
@@ -19,21 +20,144 @@
 # Input Line History (newest to oldest):
 
 # Registers:
+""1	LINE	0
+	
+"2	LINE	0
+	run chmod +x {kubeadm,kubelet,kubectl}
+"3	LINE	0
+	kubectl apply -f https://docs.projectcalico.org/v3.3/getting-started/kubernetes/installation/hosted/kubern
 
 # File marks:
-'0  5  0  ~/.gitignore
-'1  1  1  ~/.gitignore
-'2  1  9  ~/README.md
+'0  7  29  ~/Dockerfile
+'1  8  0  ~/Dockerfile
+'2  22  0  ~/Dockerfile
+'3  1  0  ~/Dockerfile
+'4  17  6  ~/docker-compose.yaml
+'5  24  29  ~/Dockerfile
+'6  5  0  ~/.gitignore
+'7  1  1  ~/.gitignore
+'8  1  9  ~/README.md
 
 # Jumplist (newest first):
+-'  7  29  ~/Dockerfile
+-'  1  0  ~/Dockerfile
+-'  8  0  ~/Dockerfile
+-'  22  0  ~/Dockerfile
+-'  17  6  ~/docker-compose.yaml
+-'  1  0  ~/docker-compose.yaml
+-'  24  29  ~/Dockerfile
 -'  5  0  ~/.gitignore
 -'  1  0  ~/.gitignore
 -'  1  9  ~/README.md
 -'  1  9  ~/README.md
 -'  1  9  ~/README.md
 -'  1  9  ~/README.md
+-'  5  0  ~/.gitignore
+-'  1  0  ~/.gitignore
+-'  1  9  ~/README.md
+-'  1  9  ~/README.md
+-'  1  9  ~/README.md
+-'  1  9  ~/README.md
+-'  5  0  ~/.gitignore
+-'  1  0  ~/.gitignore
+-'  1  9  ~/README.md
+-'  1  9  ~/README.md
+-'  1  9  ~/README.md
+-'  1  9  ~/README.md
+-'  5  0  ~/.gitignore
+-'  1  0  ~/.gitignore
+-'  1  9  ~/README.md
+-'  1  9  ~/README.md
+-'  1  9  ~/README.md
+-'  1  9  ~/README.md
+-'  5  0  ~/.gitignore
+-'  1  0  ~/.gitignore
+-'  1  9  ~/README.md
+-'  1  9  ~/README.md
+-'  1  9  ~/README.md
+-'  1  9  ~/README.md
+-'  5  0  ~/.gitignore
+-'  1  0  ~/.gitignore
+-'  1  9  ~/README.md
+-'  1  9  ~/README.md
+-'  1  9  ~/README.md
+-'  1  9  ~/README.md
+-'  5  0  ~/.gitignore
+-'  1  0  ~/.gitignore
+-'  1  9  ~/README.md
+-'  1  9  ~/README.md
+-'  1  9  ~/README.md
+-'  1  9  ~/README.md
+-'  5  0  ~/.gitignore
+-'  1  0  ~/.gitignore
+-'  1  9  ~/README.md
+-'  1  9  ~/README.md
+-'  1  9  ~/README.md
+-'  1  9  ~/README.md
+-'  17  6  ~/docker-compose.yaml
+-'  1  0  ~/docker-compose.yaml
+-'  5  0  ~/.gitignore
+-'  1  0  ~/.gitignore
+-'  1  9  ~/README.md
+-'  1  9  ~/README.md
+-'  1  9  ~/README.md
+-'  1  9  ~/README.md
+-'  5  0  ~/.gitignore
+-'  1  0  ~/.gitignore
+-'  1  9  ~/README.md
+-'  1  9  ~/README.md
+-'  1  9  ~/README.md
+-'  1  9  ~/README.md
+-'  5  0  ~/.gitignore
+-'  1  0  ~/.gitignore
+-'  1  9  ~/README.md
+-'  1  9  ~/README.md
+-'  1  9  ~/README.md
+-'  1  9  ~/README.md
+-'  5  0  ~/.gitignore
+-'  1  0  ~/.gitignore
+-'  1  9  ~/README.md
+-'  1  9  ~/README.md
+-'  1  9  ~/README.md
+-'  1  9  ~/README.md
+-'  5  0  ~/.gitignore
+-'  1  0  ~/.gitignore
+-'  1  9  ~/README.md
+-'  1  9  ~/README.md
+-'  1  9  ~/README.md
+-'  1  9  ~/README.md
+-'  5  0  ~/.gitignore
+-'  1  0  ~/.gitignore
+-'  1  9  ~/README.md
+-'  1  9  ~/README.md
+-'  1  9  ~/README.md
+-'  1  9  ~/README.md
+-'  5  0  ~/.gitignore
+-'  17  6  ~/docker-compose.yaml
+-'  1  0  ~/docker-compose.yaml
+-'  5  0  ~/.gitignore
 
 # History of marks within files (newest to oldest):
+
+> ~/Dockerfile
+	"	7	29
+	^	7	30
+	.	7	30
+	+	3	63
+	+	14	34
+	+	25	106
+	+	25	0
+	+	23	56
+	+	24	29
+	+	8	0
+	+	9	0
+	+	7	30
+
+> ~/docker-compose.yaml
+	"	17	6
+	^	17	7
+	.	17	6
+	+	17	6
 
 > ~/.gitignore
 	"	5	0
