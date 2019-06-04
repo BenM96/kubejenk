@@ -21,12 +21,21 @@
 # Registers:
 
 # File marks:
-'0  1  9  ~/README.md
+'0  1  1  ~/.gitignore
+'1  1  9  ~/README.md
 
 # Jumplist (newest first):
+-'  1  1  ~/.gitignore
+-'  1  9  ~/README.md
 -'  1  9  ~/README.md
 
 # History of marks within files (newest to oldest):
+
+> ~/.gitignore
+	"	1	1
+	^	1	2
+	.	1	1
+	+	1	1
 
 > ~/README.md
 	"	1	9
