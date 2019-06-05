@@ -9,6 +9,7 @@ run curl -L --remote-name-all https://storage.googleapis.com/kubernetes-release/
 run curl -sSL "https://raw.githubusercontent.com/kubernetes/kubernetes/${RELEASE}/build/debs/kubelet.service" | sed "s:/usr/bin:/opt/bin:g" > /etc/systemd/system/kubelet.service
 run mkdir -p /etc/systemd/system/kubelet.service.d
 run curl -sSL "https://raw.githubusercontent.com/kubernetes/kubernetes/${RELEASE}/build/debs/10-kubeadm.conf" | sed "s:/usr/bin:/opt/bin:g" > /etc/systemd/system/kubelet.service.d/10-kubeadm.conf
+run sleep 10
 run systemctl enable --now kubelet
 run apt install -y ebtables socat
 run curl https://get.docker.com | bash
